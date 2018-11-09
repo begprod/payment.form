@@ -1,3 +1,38 @@
-<header>
-	<h1 class="test">form</h1>
-</header>
+<form class="payment-form" action="#" method="post">
+	<header class="payment-form__header">
+		<img src="./media/images/visa.png" srcset="./media/images/visa@2x.png 2x" alt="visa">
+		<div>
+			<div>39 <span>eur</span></div>
+			<div>design magazine</div>
+		</div>
+	</header>
+	<fieldset>
+		<div>
+			<label for="card-number">card number</label>
+			<input id="card-number" type="text" placeholder="1111 2222 3333 9999">
+		</div>
+		<div>
+			<label for="card-cvc">cvc</label>
+			<input id="card-cvc" type="text" placeholder="888">
+		</div>
+	</fieldset>
+	<fieldset>
+		<div>
+			<label for="card-holder-name">Holder name</label>
+			<input id="card-holder-name" type="text" placeholder="Anne Smith">
+		</div>
+	</fieldset>
+	<fieldset>
+		<div>Expiration date</div>
+		<div>
+			day
+		</div>
+		<div>
+			month
+		</div>
+		<div>
+			year
+		</div>
+	</fieldset>
+	<button>Complete payment</button>
+</form>
