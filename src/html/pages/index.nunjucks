@@ -1,5 +1,7 @@
 {% extends 'layout.nunjucks' %}
 
 {% block content %}
-	{% include 'partials/form.nunjucks' %}
+	<div class="wrapper">
+		{% include 'partials/form.nunjucks' %}
+	</div>
 {% endblock %}
