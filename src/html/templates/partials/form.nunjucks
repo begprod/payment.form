@@ -23,15 +23,21 @@
 		</div>
 	</fieldset>
 	<fieldset class="payment-form__fieldset">
-		<div>Expiration date</div>
-		<div>
-			day
-		</div>
-		<div>
-			month
-		</div>
-		<div>
-			year
+		<p class="payment-form__fieldset-head">Expiration date</p>
+		<div class="selector-list">
+			<div class="selector-list__current">15</div>
+			<ul class="selector-list__list">
+				<li class="selector-list__list-item">1</li>
+				<li class="selector-list__list-item">2</li>
+				<li class="selector-list__list-item">3</li>
+				<li class="selector-list__list-item">4</li>
+				<li class="selector-list__list-item">5</li>
+				<li class="selector-list__list-item">6</li>
+				<li class="selector-list__list-item">7</li>
+				<li class="selector-list__list-item">8</li>
+				<li class="selector-list__list-item">9</li>
+				<li class="selector-list__list-item">10</li>
+			</ul>
 		</div>
 	</fieldset>
 	<button class="btn">Complete payment</button>
