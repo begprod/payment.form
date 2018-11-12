@@ -26,53 +26,59 @@
 		</div>
 	</header>
 	<fieldset class="payment-form__fieldset">
-		<div class="input">
-			<label class="input__label" for="card-number">card number</label>
-			<input class="input__field" id="card-number" type="text" placeholder="1111 2222 3333 9999">
-		</div>
-		<div class="input">
-			<label class="input__label" for="card-cvc">cvc</label>
-			<input class="input__field" id="card-cvc" type="text" placeholder="888">
+		<div class="payment-form__fieldset-inner payment-form__fieldset-inner_flex">
+			<div class="input payment-form__card-number">
+				<label class="input__label" for="card-number">card number</label>
+				<input class="input__field" id="card-number" type="text" placeholder="1111 2222 3333 9999">
+			</div>
+			<div class="input payment-form__cvc">
+				<label class="input__label" for="card-cvc">cvc</label>
+				<input class="input__field" id="card-cvc" type="text" placeholder="888">
+			</div>
 		</div>
 	</fieldset>
 	<fieldset class="payment-form__fieldset">
-		<div class="input">
-			<label class="input__label" for="card-holder-name">Holder name</label>
-			<input class="input__field" id="card-holder-name" type="text" placeholder="Anne Smith">
+		<div class="payment-form__fieldset-inner">
+			<div class="input">
+				<label class="input__label" for="card-holder-name">Holder name</label>
+				<input class="input__field" id="card-holder-name" type="text" placeholder="Anne Smith">
+			</div>
 		</div>
 	</fieldset>
 	<fieldset class="payment-form__fieldset">
 		<p class="payment-form__fieldset-head">Expiration date</p>
-		<div class="selector-list js-month-dropdown">
-			<div class="selector-list__current js-dropdown-selected-value">February</div>
-			<ul class="selector-list__list js-dropdown-value-list">
-				<li class="selector-list__list-item">January</li>
-				<li class="selector-list__list-item">February</li>
-				<li class="selector-list__list-item">March</li>
-				<li class="selector-list__list-item">April</li>
-				<li class="selector-list__list-item">May</li>
-				<li class="selector-list__list-item">June</li>
-				<li class="selector-list__list-item">July</li>
-				<li class="selector-list__list-item">August</li>
-				<li class="selector-list__list-item">September</li>
-				<li class="selector-list__list-item">October</li>
-				<li class="selector-list__list-item">November</li>
-				<li class="selector-list__list-item">December</li>
-			</ul>
-		</div>
-		<div class="selector-list js-years-dropdown">
-			<div class="selector-list__current js-dropdown-selected-value">2011</div>
-			<ul class="selector-list__list js-dropdown-value-list">
-				<li class="selector-list__list-item">2025</li>
-				<li class="selector-list__list-item">2023</li>
-				<li class="selector-list__list-item">2022</li>
-				<li class="selector-list__list-item">2021</li>
-				<li class="selector-list__list-item">2019</li>
-				<li class="selector-list__list-item">2018</li>
-			</ul>
+		<div class="payment-form__fieldset-inner payment-form__fieldset-inner_flex">
+			<div class="selector-list payment-form__dropdown js-month-dropdown">
+				<div class="selector-list__current js-dropdown-selected-value">February</div>
+				<ul class="selector-list__list js-dropdown-value-list">
+					<li class="selector-list__list-item">January</li>
+					<li class="selector-list__list-item">February</li>
+					<li class="selector-list__list-item">March</li>
+					<li class="selector-list__list-item">April</li>
+					<li class="selector-list__list-item">May</li>
+					<li class="selector-list__list-item">June</li>
+					<li class="selector-list__list-item">July</li>
+					<li class="selector-list__list-item">August</li>
+					<li class="selector-list__list-item">September</li>
+					<li class="selector-list__list-item">October</li>
+					<li class="selector-list__list-item">November</li>
+					<li class="selector-list__list-item">December</li>
+				</ul>
+			</div>
+			<div class="selector-list payment-form__dropdown js-years-dropdown">
+				<div class="selector-list__current js-dropdown-selected-value">2011</div>
+				<ul class="selector-list__list js-dropdown-value-list">
+					<li class="selector-list__list-item">2025</li>
+					<li class="selector-list__list-item">2023</li>
+					<li class="selector-list__list-item">2022</li>
+					<li class="selector-list__list-item">2021</li>
+					<li class="selector-list__list-item">2019</li>
+					<li class="selector-list__list-item">2018</li>
+				</ul>
+			</div>
 		</div>
 	</fieldset>
-	<button class="btn">Complete payment</button>
+	<button class="btn payment-form__btn">Complete payment</button>
 </form>
 	</div>
 
